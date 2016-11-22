@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		561224FF1D26128700FE59D5 /* Athlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561224F61D26128700FE59D5 /* Athlete.swift */; };
+		561225001D26128700FE59D5 /* Athlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561224F61D26128700FE59D5 /* Athlete.swift */; };
+		561225011D26128700FE59D5 /* Cyclist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561224F71D26128700FE59D5 /* Cyclist.swift */; };
+		561225021D26128700FE59D5 /* Cyclist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561224F71D26128700FE59D5 /* Cyclist.swift */; };
+		561225031D26128700FE59D5 /* TriathlonEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561224F81D26128700FE59D5 /* TriathlonEvent.swift */; };
+		561225041D26128700FE59D5 /* TriathlonEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561224F81D26128700FE59D5 /* TriathlonEvent.swift */; };
+		561225051D26128700FE59D5 /* Participant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561224FA1D26128700FE59D5 /* Participant.swift */; };
+		561225061D26128700FE59D5 /* Participant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561224FA1D26128700FE59D5 /* Participant.swift */; };
+		561225071D26128700FE59D5 /* Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561224FB1D26128700FE59D5 /* Runner.swift */; };
+		561225081D26128700FE59D5 /* Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561224FB1D26128700FE59D5 /* Runner.swift */; };
+		561225091D26128700FE59D5 /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561224FC1D26128700FE59D5 /* Sport.swift */; };
+		5612250A1D26128700FE59D5 /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561224FC1D26128700FE59D5 /* Sport.swift */; };
+		5612250B1D26128700FE59D5 /* Swimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561224FD1D26128700FE59D5 /* Swimmer.swift */; };
+		5612250C1D26128700FE59D5 /* Swimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561224FD1D26128700FE59D5 /* Swimmer.swift */; };
+		5612250D1D26128700FE59D5 /* Triathlon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561224FE1D26128700FE59D5 /* Triathlon.swift */; };
+		5612250E1D26128700FE59D5 /* Triathlon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561224FE1D26128700FE59D5 /* Triathlon.swift */; };
+		561225101D262CF200FE59D5 /* AthleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5612250F1D262CF200FE59D5 /* AthleteTests.swift */; };
+		561225121D262DEE00FE59D5 /* ParticipantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561225111D262DEE00FE59D5 /* ParticipantTests.swift */; };
+		561225141D26344700FE59D5 /* SwimmerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561225131D26344700FE59D5 /* SwimmerTests.swift */; };
+		561225171D26349B00FE59D5 /* CyclistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561225151D26349B00FE59D5 /* CyclistTests.swift */; };
+		561225191D2634A600FE59D5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561225181D2634A600FE59D5 /* RunnerTests.swift */; };
+		5612251B1D26350500FE59D5 /* TriathlonEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5612251A1D26350500FE59D5 /* TriathlonEventTests.swift */; };
+		5612251E1D26358800FE59D5 /* TestParticipant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5612251D1D26358800FE59D5 /* TestParticipant.swift */; };
+		5636B4151B3BD7FE00B11DFF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5636B4131B3BD7FE00B11DFF /* main.swift */; };
+		56A2B7431D24E064005BEAA1 /* SportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A2B7401D24E064005BEAA1 /* SportTests.swift */; };
+		56A2B7441D24E064005BEAA1 /* TriathlonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A2B7411D24E064005BEAA1 /* TriathlonTests.swift */; };
+		56A2B74C1D25CD60005BEAA1 /* Double_Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EA2EFA1B43A41B00CECE46 /* Double_Random.swift */; };
+		56EA2EFB1B43A41B00CECE46 /* Double_Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EA2EFA1B43A41B00CECE46 /* Double_Random.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5612251F1D2642A100FE59D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5636B4001B3BD7CE00B11DFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5636B4071B3BD7CE00B11DFF;
+			remoteInfo = Assignment1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5636B4061B3BD7CE00B11DFF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		561224F61D26128700FE59D5 /* Athlete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Athlete.swift; sourceTree = "<group>"; };
+		561224F71D26128700FE59D5 /* Cyclist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cyclist.swift; sourceTree = "<group>"; };
+		561224F81D26128700FE59D5 /* TriathlonEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriathlonEvent.swift; sourceTree = "<group>"; };
+		561224FA1D26128700FE59D5 /* Participant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Participant.swift; sourceTree = "<group>"; };
+		561224FB1D26128700FE59D5 /* Runner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Runner.swift; sourceTree = "<group>"; };
+		561224FC1D26128700FE59D5 /* Sport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
+		561224FD1D26128700FE59D5 /* Swimmer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swimmer.swift; sourceTree = "<group>"; };
+		561224FE1D26128700FE59D5 /* Triathlon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triathlon.swift; sourceTree = "<group>"; };
+		5612250F1D262CF200FE59D5 /* AthleteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AthleteTests.swift; sourceTree = "<group>"; };
+		561225111D262DEE00FE59D5 /* ParticipantTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipantTests.swift; sourceTree = "<group>"; };
+		561225131D26344700FE59D5 /* SwimmerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwimmerTests.swift; sourceTree = "<group>"; };
+		561225151D26349B00FE59D5 /* CyclistTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyclistTests.swift; sourceTree = "<group>"; };
+		561225181D2634A600FE59D5 /* RunnerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
+		5612251A1D26350500FE59D5 /* TriathlonEventTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriathlonEventTests.swift; sourceTree = "<group>"; };
+		5612251D1D26358800FE59D5 /* TestParticipant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestParticipant.swift; sourceTree = "<group>"; };
+		5636B4081B3BD7CE00B11DFF /* Assignment1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment1; sourceTree = BUILT_PRODUCTS_DIR; };
+		5636B4131B3BD7FE00B11DFF /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		56A2B72D1D24D32D005BEAA1 /* Assignment1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Assignment1.playground; sourceTree = "<group>"; };
+		56A2B7321D24DBF7005BEAA1 /* Assignment1UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment1UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A2B73E1D24E064005BEAA1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56A2B7401D24E064005BEAA1 /* SportTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportTests.swift; sourceTree = "<group>"; };
+		56A2B7411D24E064005BEAA1 /* TriathlonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriathlonTests.swift; sourceTree = "<group>"; };
+		56EA2EFA1B43A41B00CECE46 /* Double_Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double_Random.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5636B4051B3BD7CE00B11DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56A2B72F1D24DBF7005BEAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		561224F91D26128700FE59D5 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				561224FA1D26128700FE59D5 /* Participant.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		5612251C1D26356F00FE59D5 /* TestTypes */ = {
+			isa = PBXGroup;
+			children = (
+				5612251D1D26358800FE59D5 /* TestParticipant.swift */,
+			);
+			path = TestTypes;
+			sourceTree = "<group>";
+		};
+		5636B3FF1B3BD7CE00B11DFF = {
+			isa = PBXGroup;
+			children = (
+				56A2B72D1D24D32D005BEAA1 /* Assignment1.playground */,
+				5636B40A1B3BD7CE00B11DFF /* Assignment1 */,
+				56A2B7331D24DBF7005BEAA1 /* Assignment1UnitTests */,
+				5636B4091B3BD7CE00B11DFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5636B4091B3BD7CE00B11DFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5636B4081B3BD7CE00B11DFF /* Assignment1 */,
+				56A2B7321D24DBF7005BEAA1 /* Assignment1UnitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5636B40A1B3BD7CE00B11DFF /* Assignment1 */ = {
+			isa = PBXGroup;
+			children = (
+				5636B4121B3BD7FE00B11DFF /* Source */,
+			);
+			path = Assignment1;
+			sourceTree = "<group>";
+		};
+		5636B4121B3BD7FE00B11DFF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				56EA2EF91B43A3FD00CECE46 /* Extension */,
+				561224F91D26128700FE59D5 /* Protocol */,
+				561224F61D26128700FE59D5 /* Athlete.swift */,
+				561224F71D26128700FE59D5 /* Cyclist.swift */,
+				5636B4131B3BD7FE00B11DFF /* main.swift */,
+				561224FB1D26128700FE59D5 /* Runner.swift */,
+				561224FC1D26128700FE59D5 /* Sport.swift */,
+				561224FD1D26128700FE59D5 /* Swimmer.swift */,
+				561224FE1D26128700FE59D5 /* Triathlon.swift */,
+				561224F81D26128700FE59D5 /* TriathlonEvent.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		56A2B7331D24DBF7005BEAA1 /* Assignment1UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				56A2B73D1D24E064005BEAA1 /* Resources */,
+				56A2B73F1D24E064005BEAA1 /* Source */,
+			);
+			path = Assignment1UnitTests;
+			sourceTree = "<group>";
+		};
+		56A2B73D1D24E064005BEAA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				56A2B73E1D24E064005BEAA1 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		56A2B73F1D24E064005BEAA1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5612251C1D26356F00FE59D5 /* TestTypes */,
+				5612250F1D262CF200FE59D5 /* AthleteTests.swift */,
+				561225151D26349B00FE59D5 /* CyclistTests.swift */,
+				561225111D262DEE00FE59D5 /* ParticipantTests.swift */,
+				561225181D2634A600FE59D5 /* RunnerTests.swift */,
+				56A2B7401D24E064005BEAA1 /* SportTests.swift */,
+				561225131D26344700FE59D5 /* SwimmerTests.swift */,
+				56A2B7411D24E064005BEAA1 /* TriathlonTests.swift */,
+				5612251A1D26350500FE59D5 /* TriathlonEventTests.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		56EA2EF91B43A3FD00CECE46 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				56EA2EFA1B43A41B00CECE46 /* Double_Random.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5636B4071B3BD7CE00B11DFF /* Assignment1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5636B40F1B3BD7CE00B11DFF /* Build configuration list for PBXNativeTarget "Assignment1" */;
+			buildPhases = (
+				5636B4041B3BD7CE00B11DFF /* Sources */,
+				5636B4051B3BD7CE00B11DFF /* Frameworks */,
+				5636B4061B3BD7CE00B11DFF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Assignment1;
+			productName = Assignment1;
+			productReference = 5636B4081B3BD7CE00B11DFF /* Assignment1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		56A2B7311D24DBF7005BEAA1 /* Assignment1UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56A2B7371D24DBF7005BEAA1 /* Build configuration list for PBXNativeTarget "Assignment1UnitTests" */;
+			buildPhases = (
+				56A2B72E1D24DBF7005BEAA1 /* Sources */,
+				56A2B72F1D24DBF7005BEAA1 /* Frameworks */,
+				56A2B7301D24DBF7005BEAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561225201D2642A100FE59D5 /* PBXTargetDependency */,
+			);
+			name = Assignment1UnitTests;
+			productName = Assignment1UnitTests;
+			productReference = 56A2B7321D24DBF7005BEAA1 /* Assignment1UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5636B4001B3BD7CE00B11DFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					5636B4071B3BD7CE00B11DFF = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					56A2B7311D24DBF7005BEAA1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5636B4031B3BD7CE00B11DFF /* Build configuration list for PBXProject "Assignment1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5636B3FF1B3BD7CE00B11DFF;
+			productRefGroup = 5636B4091B3BD7CE00B11DFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5636B4071B3BD7CE00B11DFF /* Assignment1 */,
+				56A2B7311D24DBF7005BEAA1 /* Assignment1UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56A2B7301D24DBF7005BEAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5636B4041B3BD7CE00B11DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5636B4151B3BD7FE00B11DFF /* main.swift in Sources */,
+				561225091D26128700FE59D5 /* Sport.swift in Sources */,
+				5612250B1D26128700FE59D5 /* Swimmer.swift in Sources */,
+				561225071D26128700FE59D5 /* Runner.swift in Sources */,
+				561225011D26128700FE59D5 /* Cyclist.swift in Sources */,
+				561225051D26128700FE59D5 /* Participant.swift in Sources */,
+				56EA2EFB1B43A41B00CECE46 /* Double_Random.swift in Sources */,
+				5612250D1D26128700FE59D5 /* Triathlon.swift in Sources */,
+				561225031D26128700FE59D5 /* TriathlonEvent.swift in Sources */,
+				561224FF1D26128700FE59D5 /* Athlete.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56A2B72E1D24DBF7005BEAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5612250A1D26128700FE59D5 /* Sport.swift in Sources */,
+				5612251B1D26350500FE59D5 /* TriathlonEventTests.swift in Sources */,
+				561225001D26128700FE59D5 /* Athlete.swift in Sources */,
+				56A2B7441D24E064005BEAA1 /* TriathlonTests.swift in Sources */,
+				56A2B74C1D25CD60005BEAA1 /* Double_Random.swift in Sources */,
+				5612250C1D26128700FE59D5 /* Swimmer.swift in Sources */,
+				561225081D26128700FE59D5 /* Runner.swift in Sources */,
+				561225121D262DEE00FE59D5 /* ParticipantTests.swift in Sources */,
+				561225171D26349B00FE59D5 /* CyclistTests.swift in Sources */,
+				5612251E1D26358800FE59D5 /* TestParticipant.swift in Sources */,
+				561225061D26128700FE59D5 /* Participant.swift in Sources */,
+				561225191D2634A600FE59D5 /* RunnerTests.swift in Sources */,
+				561225101D262CF200FE59D5 /* AthleteTests.swift in Sources */,
+				56A2B7431D24E064005BEAA1 /* SportTests.swift in Sources */,
+				561225141D26344700FE59D5 /* SwimmerTests.swift in Sources */,
+				561225041D26128700FE59D5 /* TriathlonEvent.swift in Sources */,
+				561225021D26128700FE59D5 /* Cyclist.swift in Sources */,
+				5612250E1D26128700FE59D5 /* Triathlon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		561225201D2642A100FE59D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5636B4071B3BD7CE00B11DFF /* Assignment1 */;
+			targetProxy = 5612251F1D2642A100FE59D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5636B40D1B3BD7CE00B11DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5636B40E1B3BD7CE00B11DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5636B4101B3BD7CE00B11DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5636B4111B3BD7CE00B11DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		56A2B7381D24DBF7005BEAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Assignment1UnitTests/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uoregon.cs.iosdev.Assignment1UnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "";
+			};
+			name = Debug;
+		};
+		56A2B7391D24DBF7005BEAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Assignment1UnitTests/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uoregon.cs.iosdev.Assignment1UnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5636B4031B3BD7CE00B11DFF /* Build configuration list for PBXProject "Assignment1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5636B40D1B3BD7CE00B11DFF /* Debug */,
+				5636B40E1B3BD7CE00B11DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5636B40F1B3BD7CE00B11DFF /* Build configuration list for PBXNativeTarget "Assignment1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5636B4101B3BD7CE00B11DFF /* Debug */,
+				5636B4111B3BD7CE00B11DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56A2B7371D24DBF7005BEAA1 /* Build configuration list for PBXNativeTarget "Assignment1UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56A2B7381D24DBF7005BEAA1 /* Debug */,
+				56A2B7391D24DBF7005BEAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5636B4001B3BD7CE00B11DFF /* Project object */;
+}
